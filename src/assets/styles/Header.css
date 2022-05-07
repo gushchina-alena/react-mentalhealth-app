@@ -1,0 +1,30 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 80vw;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.header__title {
+    display: flex;
+    justify-self: left;
+    padding: 0 30px;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.menu__item {
+    display: flex;
+    gap: 4vw;
+    padding: 0.5em;
+    list-style: none;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.menu__item:hover {
+    color: rgb(152, 61, 152);
+}

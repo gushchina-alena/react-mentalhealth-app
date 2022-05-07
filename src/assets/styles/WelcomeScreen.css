@@ -1,0 +1,68 @@
+.container__presentation {
+    display: flex;
+    height: 700px;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/08/08/31/man-3591573_1280.jpg);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-size: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(152, 61, 152);
+}
+
+h2 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(190, 126, 195);
+}
+
+h3 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(190, 126, 195);
+
+}
+
+.text {
+    display: flex;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: flex-start;
+    justify-items: center;
+    font-style: italic;
+
+}
+
+.right {
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    justify-items: center;
+    margin-left: 300px;
+    font-style: italic;
+}
+
+@media screen and (max-width: 479px) {
+
+    .container__presentation {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .text {
+        display: none;
+    }
+}

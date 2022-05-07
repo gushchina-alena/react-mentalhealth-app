@@ -1,0 +1,77 @@
+.help, .works{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.help{
+    gap: 40px;
+    width: 1200px;
+}
+.works{
+    margin-top: 50px;
+    width: 1000px;
+}
+
+.help__header, .works__header{
+    width: 1200px;
+    display: block;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.help__card{
+max-width: 400px;
+padding-bottom: 25px;
+}
+
+.help img{
+    width: 360px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.help__card__text-h{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    padding-bottom: 10px;
+    text-align: left;
+    color: #483D8B;
+}
+
+.help__card__text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    max-width: 350px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.works img{
+    width: 185px;
+    height: 195px;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+}
+
+.works__card__text_h{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #483D8B;
+    padding-bottom: 10px;
+}
+
+.works__card__text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.works__card{
+    width: 250px;
+    padding: 40px;
+}
